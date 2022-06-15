@@ -20,5 +20,5 @@ ga.train(iterations=10, fitness_func=fitness)
 # if the list isn't sorted already, pass True for do_sort 
 ````
 
-When creating your population, you should give the Individuals a list of values, a ``keras.Model``, a ``keras.Sequential`` or a ``NN`` object, as well as a id.  
+When creating your population, you should give the Individuals a list of values, a ``keras.Model``, a ``keras.Sequential`` or a ``NN`` object, as well as an id.  
 The ``NN`` object can be created with the simple_nn modul. You will need tensorflow for for ``keras.Model`` and ``keras.Sequential``.
